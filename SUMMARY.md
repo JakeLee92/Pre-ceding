@@ -26,5 +26,8 @@
 
 ## Photo
 
-* [My Masterpiece](photo/my-masterpiece.md)
+* [My Masterpiece](photo/my-masterpiece/README.md)
+  * [Abstract](photo/my-masterpiece/abstract.md)
+  * [Food](photo/my-masterpiece/food.md)
+  * [iPhone](photo/my-masterpiece/iphone.md)
 
