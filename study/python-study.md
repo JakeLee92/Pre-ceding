@@ -1,4 +1,0 @@
-# Python Study
-
-Python Study
-

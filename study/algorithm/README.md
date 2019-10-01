@@ -1,4 +1,4 @@
-# Algorithm Study
+# Algorithm
 
 {% page-ref page="untitled/" %}
 
