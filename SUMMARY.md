@@ -2,13 +2,12 @@
 
 * [Pre-ceding](README.md)
 
-## Project
-
 ## Study
 
 * [Design Pattern](study/design-pattern/README.md)
   * [Creational Pattern](study/design-pattern/creational-pattern.md)
-* [Python](study/python.md)
+* [Python](study/python/README.md)
+  * [Series](study/python/series.md)
 * [Algorithm](study/algorithm/README.md)
   * [Hashing](study/algorithm/untitled/README.md)
     * [Untitled](study/algorithm/untitled/untitled-3.md)
