@@ -21,7 +21,7 @@
   * [Brute-Force](study/algorithm/brute-force.md)
   * [Greedy](study/algorithm/greedy.md)
   * [Dynamic Programming](study/algorithm/dynamic-programming.md)
-  * [DFS](study/algorithm/dfs.md)
+  * [DFS & BFS](study/algorithm/dfs.md)
   * [BFS](study/algorithm/bfs.md)
   * [Graph](study/algorithm/graph.md)
 
