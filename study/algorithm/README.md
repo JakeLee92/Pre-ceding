@@ -18,7 +18,5 @@
 
 {% page-ref page="dfs.md" %}
 
-{% page-ref page="bfs.md" %}
-
 {% page-ref page="graph.md" %}
 

@@ -22,7 +22,6 @@
   * [Greedy](study/algorithm/greedy.md)
   * [Dynamic Programming](study/algorithm/dynamic-programming.md)
   * [DFS & BFS](study/algorithm/dfs.md)
-  * [BFS](study/algorithm/bfs.md)
   * [Graph](study/algorithm/graph.md)
 
 ## Photo
