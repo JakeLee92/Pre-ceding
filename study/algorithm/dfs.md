@@ -1,5 +1,108 @@
 # DFS & BFS
 
+## \[백준\]\[2178\]미로 탐색
+
+[https://www.acmicpc.net/problem/2178](https://www.acmicpc.net/problem/2178)
+
+### 문제
+
+N×M크기의 배열로 표현되는 미로가 있다.
+
+| 1 | 0 | 1 | 1 | 1 | 1 |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| 1 | 0 | 1 | 0 | 1 | 0 |
+| 1 | 0 | 1 | 0 | 1 | 1 |
+| 1 | 1 | 1 | 0 | 1 | 1 |
+
+미로에서 1은 이동할 수 있는 칸을 나타내고, 0은 이동할 수 없는 칸을 나타낸다. 이러한 미로가 주어졌을 때, \(1, 1\)에서 출발하여 \(N, M\)의 위치로 이동할 때 지나야 하는 최소의 칸 수를 구하는 프로그램을 작성하시오. 한 칸에서 다른 칸으로 이동할 때, 서로 인접한 칸으로만 이동할 수 있다.
+
+위의 예에서는 15칸을 지나야 \(N, M\)의 위치로 이동할 수 있다. 칸을 셀 때에는 시작 위치와 도착 위치도 포함한다.
+
+### 입력
+
+첫째 줄에 두 정수 N, M\(2 ≤ N, M ≤ 100\)이 주어진다. 다음 N개의 줄에는 M개의 정수로 미로가 주어진다. 각각의 수들은 **붙어서** 입력으로 주어진다.
+
+### 출력
+
+첫째 줄에 지나야 하는 최소의 칸 수를 출력한다. 항상 도착위치로 이동할 수 있는 경우만 입력으로 주어진다.
+
+### 코드
+
+```text
+4 6
+101111
+101010
+101011
+111011
+
+15
+```
+
+```cpp
+#include <iostream>
+#include <string>
+#include <queue>
+#define N_MAX 101
+
+using namespace std;
+
+// init
+int map[N_MAX][N_MAX] = { 0, };
+int visit[N_MAX][N_MAX] = { 0, };
+int dir[4][2] = { {1,0}, {0,1},{-1,0}, {0,-1} };
+
+int N, M;
+void bfs(int x, int y)
+{
+	
+	int iRet = 0;
+
+	queue<pair<int , int>> que;
+	pair<int, int> start(x, y);
+	
+	visit[x][y] = 1;
+	que.push(start);
+
+	while (!que.empty())
+	{
+		pair<int, int> point = que.front();
+		que.pop();
+						
+		for (int i = 0; i < 4; i++)
+		{
+			int x_add = dir[i][0] + point.first;
+			int y_add = dir[i][1] + point.second;
+
+			if (map[x_add][y_add] == 1 && visit[x_add][y_add] == 0)
+			{				
+				visit[x_add][y_add] = visit[point.first][point.second] + 1;
+				que.push(make_pair(x_add , y_add));
+			}
+		}
+	}
+}
+
+int main()
+{
+	cin >> N >> M;
+
+	for (int x = 1; x <= N; x++)
+	{
+		string str;
+		cin >> str;
+		for (int y = 1; y <= (int)str.length(); y++)
+		{
+			map[x][y] = int(str.at(y-1) - 48);
+		}
+	}
+
+	bfs(1, 1);
+	cout << visit[N][M];
+
+	return 0;
+}
+```
+
 ## \[백준\]\[1012\] 유기농 배
 
 ### 문제
@@ -30,7 +133,7 @@
 
 각 테스트 케이스에 대해 필요한 최소의 배추흰지렁이 마리 수를 출력한다.
 
-
+### 코드
 
 ```text
 input
@@ -167,7 +270,7 @@ int main()
 
 첫 번째 줄에는 총 단지수를 출력하시오. 그리고 각 단지내 집의 수를 오름차순으로 정렬하여 한 줄에 하나씩 출력하시오.
 
-
+### 코드 
 
 ```text
 input
