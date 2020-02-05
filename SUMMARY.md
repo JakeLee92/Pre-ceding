@@ -27,6 +27,7 @@
 ## Photo
 
 * [My Masterpiece](photo/my-masterpiece/README.md)
+  * [2020.02.05 원효로](photo/my-masterpiece/2020.02.05.md)
   * [Abstract](photo/my-masterpiece/abstract.md)
   * [Food](photo/my-masterpiece/food.md)
   * [iPhone](photo/my-masterpiece/iphone/README.md)
