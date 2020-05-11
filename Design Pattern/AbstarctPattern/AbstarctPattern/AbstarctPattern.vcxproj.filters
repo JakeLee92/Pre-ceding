@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Client">
+      <UniqueIdentifier>{316152b4-8910-4ee7-b58a-ce5ced159703}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\AVNFactory">
+      <UniqueIdentifier>{dcfbb2bb-1d29-47c1-b4bd-eb1985f8a296}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\AVNFactory\Mobis">
+      <UniqueIdentifier>{3ccdbb14-d572-44c5-b509-f66dad776f87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\AVNFactory\LG">
+      <UniqueIdentifier>{6ad2f695-d021-462d-835b-03495c5c086c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\AVNFactory\src">
+      <UniqueIdentifier>{62d1a49f-ba6c-4223-8545-aa2b69912323}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\AVN">
+      <UniqueIdentifier>{fa33d3d6-64a0-4439-96d9-080139886017}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\AVN\Audio">
+      <UniqueIdentifier>{0a3de4d9-9a38-45b0-8bfa-f239203ae5f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\AVN\Video">
+      <UniqueIdentifier>{f8f57974-d394-48c3-a7d1-ba58fc1ef1d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\AVNFactory\Mobis\src">
+      <UniqueIdentifier>{57da57ed-cf7a-4ca2-8af7-1629f7e127a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\AVNFactory\LG\src">
+      <UniqueIdentifier>{94a2cbc3-cd5c-4cbf-a5b3-1227639defaa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\AVN\Audio\LG">
+      <UniqueIdentifier>{c212bb83-012b-453c-b863-ae0b58760548}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\AVN\Audio\Mobis">
+      <UniqueIdentifier>{82b7b067-ac91-464a-8b7e-a91f5e27318f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\AVN\Audio\Mobis\src">
+      <UniqueIdentifier>{eb30dbae-4bdd-4751-a500-004050223eb8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\AVN\Audio\LG\src">
+      <UniqueIdentifier>{2b47e743-a5e4-4209-9846-d39b92d99f49}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\AVN\Video\LG">
+      <UniqueIdentifier>{6bdb85ff-3d9b-4922-9d01-29a4f868ebaf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\AVN\Video\Mobis">
+      <UniqueIdentifier>{c077f2f9-22f8-4fa1-8527-38b81f3c3b8a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\AVN\Video\LG\src">
+      <UniqueIdentifier>{41b2fffc-07ac-437b-8541-0f71fe46abd7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\AVN\Video\Mobis\src">
+      <UniqueIdentifier>{eb078730-531c-469c-b776-bf35ac193eb2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AVN\Audio\LG\LgAudioModule.h">
+      <Filter>Source Files\AVN\Audio\LG</Filter>
+    </ClInclude>
+    <ClInclude Include="AVN\Audio\AudioModule.h">
+      <Filter>Source Files\AVN\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="AVN\Video\LG\LgVideoModule.h">
+      <Filter>Source Files\AVN\Video\LG</Filter>
+    </ClInclude>
+    <ClInclude Include="AVN\Video\Mobis\MobisVideoModule.h">
+      <Filter>Source Files\AVN\Video\Mobis</Filter>
+    </ClInclude>
+    <ClInclude Include="AVN\Video\VideoModule.h">
+      <Filter>Source Files\AVN\Video</Filter>
+    </ClInclude>
+    <ClInclude Include="AVNFactory\LG\LgAVNFactory.h">
+      <Filter>Source Files\AVNFactory\LG</Filter>
+    </ClInclude>
+    <ClInclude Include="AVNFactory\Mobis\MobisAVNFactory.h">
+      <Filter>Source Files\AVNFactory\Mobis</Filter>
+    </ClInclude>
+    <ClInclude Include="AVNFactory\AVNFactory.h">
+      <Filter>Source Files\AVNFactory</Filter>
+    </ClInclude>
+    <ClInclude Include="AVN\Audio\Mobis\MobisAudioModule.h">
+      <Filter>Source Files\AVN\Audio\Mobis</Filter>
+    </ClInclude>
+    <ClInclude Include="CreatorAVNFactory.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AVN\Audio\LG\src\LgAudioModule.cpp">
+      <Filter>Source Files\AVN\Audio\LG\src</Filter>
+    </ClCompile>
+    <ClCompile Include="AVN\Video\LG\src\LgVideoModule.cpp">
+      <Filter>Source Files\AVN\Video\LG\src</Filter>
+    </ClCompile>
+    <ClCompile Include="AVN\Video\Mobis\src\MobisVideoModule.cpp">
+      <Filter>Source Files\AVN\Video\Mobis\src</Filter>
+    </ClCompile>
+    <ClCompile Include="AVNFactory\LG\src\LgAVNFactory.cpp">
+      <Filter>Source Files\AVNFactory\LG\src</Filter>
+    </ClCompile>
+    <ClCompile Include="AVNFactory\Mobis\src\MobisAVNFactory.cpp">
+      <Filter>Source Files\AVNFactory\Mobis\src</Filter>
+    </ClCompile>
+    <ClCompile Include="AVNFactory\src\AVNFactory.cpp">
+      <Filter>Source Files\AVNFactory\src</Filter>
+    </ClCompile>
+    <ClCompile Include="AVN\Audio\Mobis\src\MobisAudioModule.cpp">
+      <Filter>Source Files\AVN\Audio\Mobis\src</Filter>
+    </ClCompile>
+    <ClCompile Include="CreatorAVNFactory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Client.cpp">
+      <Filter>Source Files\Client</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

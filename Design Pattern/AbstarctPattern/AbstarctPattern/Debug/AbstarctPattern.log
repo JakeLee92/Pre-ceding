@@ -1,0 +1,11 @@
+﻿  LgAVNFactory.cpp
+  MobisAVNFactory.cpp
+  AVNFactory.cpp
+  LgAudioModule.cpp
+  MobisAudioModule.cpp
+  LgVideoModule.cpp
+  MobisVideoModule.cpp
+  CreatorAVNFactory.cpp
+  Client.cpp
+  Generating Code...
+  AbstarctPattern.vcxproj -> C:\Users\INGYU\Desktop\DesignPattern\AbstarctPattern\Debug\AbstarctPattern.exe
