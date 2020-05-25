@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Store">
+      <UniqueIdentifier>{f5333157-9ec9-4bb8-beaa-4416da4898b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Module">
+      <UniqueIdentifier>{6e699cc1-ae2d-447d-942f-1b6c9ead2225}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Module\Video">
+      <UniqueIdentifier>{272da8c7-8b68-4a20-95c9-2c55529fc891}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Module\Audio">
+      <UniqueIdentifier>{67f012e9-788e-40e3-84d5-e04cdb37cc7d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Module\Audio\LG">
+      <UniqueIdentifier>{e453b4b5-4c90-4ec0-ad62-9899bde75398}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Module\Audio\Mobis">
+      <UniqueIdentifier>{ececd23e-9c54-4d57-96d7-bd7324becfe1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Module\Video\LG">
+      <UniqueIdentifier>{e1c714f9-d340-4c9c-89a0-751db2ec9cbc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Module\Video\Mobis">
+      <UniqueIdentifier>{6846aa36-1071-4b45-8142-65c3c24e8dad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Adapter">
+      <UniqueIdentifier>{8cc1d907-5b03-4579-bb78-121374bd170d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Client.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Store\Store.cpp">
+      <Filter>Source Files\Store</Filter>
+    </ClCompile>
+    <ClCompile Include="AudioFactory.cpp">
+      <Filter>Source Files\Module\Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="AudioModuleLG.cpp">
+      <Filter>Source Files\Module\Audio\LG</Filter>
+    </ClCompile>
+    <ClCompile Include="AudioModeMobis.cpp">
+      <Filter>Source Files\Module\Audio\Mobis</Filter>
+    </ClCompile>
+    <ClCompile Include="VideoModuleLG.cpp">
+      <Filter>Source Files\Module\Video\LG</Filter>
+    </ClCompile>
+    <ClCompile Include="VideoModuleMobis.cpp">
+      <Filter>Source Files\Module\Video\Mobis</Filter>
+    </ClCompile>
+    <ClCompile Include="VideoFactory.cpp">
+      <Filter>Source Files\Module\Video</Filter>
+    </ClCompile>
+    <ClCompile Include="StoreAdapter.cpp">
+      <Filter>Source Files\Adapter</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Store\Store.h">
+      <Filter>Source Files\Store</Filter>
+    </ClInclude>
+    <ClInclude Include="AudioFactory.h">
+      <Filter>Source Files\Module\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="Module.h">
+      <Filter>Source Files\Module</Filter>
+    </ClInclude>
+    <ClInclude Include="AudioModuleLG.h">
+      <Filter>Source Files\Module\Audio\LG</Filter>
+    </ClInclude>
+    <ClInclude Include="AudioModeMobis.h">
+      <Filter>Source Files\Module\Audio\Mobis</Filter>
+    </ClInclude>
+    <ClInclude Include="VideoFactory.h">
+      <Filter>Source Files\Module\Video</Filter>
+    </ClInclude>
+    <ClInclude Include="VideoModuleLG.h">
+      <Filter>Source Files\Module\Video\LG</Filter>
+    </ClInclude>
+    <ClInclude Include="VideoModuleMobis.h">
+      <Filter>Source Files\Module\Video\Mobis</Filter>
+    </ClInclude>
+    <ClInclude Include="StoreAdapter.h">
+      <Filter>Source Files\Adapter</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
