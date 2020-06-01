@@ -1,0 +1,7 @@
+﻿  NaviMemory.cpp
+c:\users\ingyu\source\repos\compositepattern\compositepattern\navimemory.cpp(22): warning C4018: '<': signed/unsigned mismatch
+c:\users\ingyu\source\repos\compositepattern\compositepattern\navimemory.cpp(39): warning C4018: '<': signed/unsigned mismatch
+c:\users\ingyu\source\repos\compositepattern\compositepattern\navimemory.cpp(63): warning C4018: '<': signed/unsigned mismatch
+c:\users\ingyu\source\repos\compositepattern\compositepattern\navimemory.cpp(86): warning C4018: '<': signed/unsigned mismatch
+c:\users\ingyu\source\repos\compositepattern\compositepattern\navimemory.cpp(105): warning C4018: '<': signed/unsigned mismatch
+  CompositePattern.vcxproj -> C:\Users\INGYU\source\repos\CompositePattern\Debug\CompositePattern.exe
