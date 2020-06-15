@@ -8,6 +8,8 @@ class CNaviModuleMobis : public CNaviModule
 public:
 	CNaviModuleMobis();
 
+	void PlayNaviMobis();
+
 	// Inherited via CModule
 	virtual void Play() override;
 };

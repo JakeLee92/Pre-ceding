@@ -8,6 +8,7 @@ class CVideoModuleLG : public CModule
 public :
 	CVideoModuleLG();
 
+	void PlayVideoLG();
 
 	// Inherited via CModule
 	virtual void Play() override;

@@ -8,10 +8,10 @@ class CVideoModuleMobis : public CModule
 public:
 	CVideoModuleMobis();
 
-
+	void PlayVideoMobis();
 	// Inherited via CModule
-	virtual void Play() override;
 
+	virtual void Play() override;
 };
 
 #endif

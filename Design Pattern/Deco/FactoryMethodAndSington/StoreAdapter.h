@@ -20,6 +20,7 @@ public:
 
 	CModule* BuyAudio(Vendor _vendor , eCurrency _eCurrency);
 	CModule* BuyVideo(Vendor _vendor, eCurrency _eCurrency);
+	CModule* BuyNavi(Vendor _vendor, eCurrency _eCurrency);
 
 
 private:

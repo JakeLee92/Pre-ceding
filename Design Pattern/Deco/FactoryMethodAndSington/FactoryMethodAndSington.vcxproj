@@ -118,6 +118,7 @@
     <ClCompile Include="AudioFactory.cpp" />
     <ClCompile Include="AudioModeMobis.cpp" />
     <ClCompile Include="AudioModuleLG.cpp" />
+    <ClCompile Include="AVNServiceFacade.cpp" />
     <ClCompile Include="Client.cpp" />
     <ClCompile Include="CpuMonitor\MapDisplayCpu.cpp" />
     <ClCompile Include="CpuMonitor\NaviCpu.cpp" />
@@ -141,6 +142,7 @@
     <ClInclude Include="AudioFactory.h" />
     <ClInclude Include="AudioModeMobis.h" />
     <ClInclude Include="AudioModuleLG.h" />
+    <ClInclude Include="AVNServiceFacade.h" />
     <ClInclude Include="CpuMonitor\MapDisplayCpu.h" />
     <ClInclude Include="CpuMonitor\ModuleCpu.h" />
     <ClInclude Include="CpuMonitor\NaviCpu.h" />

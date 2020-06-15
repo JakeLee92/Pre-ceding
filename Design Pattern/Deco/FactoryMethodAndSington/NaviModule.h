@@ -5,6 +5,8 @@
 #include "MemoryMonitor/NaviMemory.h"
 #include "CpuMonitor/NaviCpu.h"
 
+
+
 class CNaviModule : public CModule
 {
 public:
@@ -23,6 +25,7 @@ private:
 	CNaviMemory m_NaviMem;
 	CNaviCpu m_NaviCpu;
 };
+
 
 
 #endif // !__Navi_Module_LG_h__

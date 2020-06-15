@@ -8,6 +8,8 @@ class CAudioModuleMobis : public CModule
 public:
 	CAudioModuleMobis();
 
+	void PlayAudioMobis();
+
 	// Inherited via CModule
 	virtual void Play() override;
 };

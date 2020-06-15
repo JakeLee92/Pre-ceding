@@ -8,6 +8,8 @@ class CNaviModuleLG : public CNaviModule
 public:
 	CNaviModuleLG();
 
+	void PlayNaviLG();
+
 	// Inherited via CModule
 	virtual void Play() override;
 };

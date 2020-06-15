@@ -1,51 +1,43 @@
 #include <iostream>
 #include "StoreAdapter.h"
+#include "AVNServiceFacade.h"
 
 int main()
 {
 	// CREATE SINGLETON 
 	StoreAdapter Store;
+	CAVNServiceFacade facade;
+
+	facade.SetAudioModuleM(new CAudioModuleMobis());
+	facade.SetNaviModuleL(new CNaviModuleLG());
+
+	facade.PlayAudioLG();
+	facade.PlayAudioMobis();
+
+	facade.PlayNaviLG();
 
 
-	// CREATE MODULE
-	CModule *modAudioMobis1 = Store.BuyAudio(eMobis, eDoller);
-	CModule *modAudioMobis2 = Store.BuyAudio(eMobis, eWon);
-	CModule *modAudioLG1 = Store.BuyAudio(eLG, eDoller);
-	CModule *modAudioLG2 = Store.BuyAudio(eLG, eEuro);
 
-	CModule *modVideoMobis1 = Store.BuyVideo(eMobis, eDoller);
-	CModule *modVideoLG1 = Store.BuyVideo(eLG, eDoller);
-	CModule *modVideoMobis2 = Store.BuyVideo(eMobis, eEuro);
-	CModule *modVideoLG2 = Store.BuyVideo(eLG, eWon);
+	//// DELETE MEMORY
+	//if (modAudioMobis1)
+	//	delete modAudioMobis1;
+	//if (modAudioLG1)
+	//	delete modAudioLG1;
 
-	//// PLAY MODULE
-	//modAudioMobis->Play();
-	//modAudioLG->Play();
+	//if (modVideoMobis1)
+	//	delete modVideoMobis1;
+	//if (modVideoLG1)
+	//	delete modVideoLG1;
 
-	//modVideoMobis->Play();
-	//modVideoLG->Play();
+	//if (modAudioMobis2)
+	//	delete modAudioMobis2;
+	//if (modAudioLG2)
+	//	delete modAudioLG2;
 
-
-	// DELETE MEMORY
-	if (modAudioMobis1)
-		delete modAudioMobis1;
-	if (modAudioLG1)
-		delete modAudioLG1;
-
-	if (modVideoMobis1)
-		delete modVideoMobis1;
-	if (modVideoLG1)
-		delete modVideoLG1;
-
-	if (modAudioMobis2)
-		delete modAudioMobis2;
-	if (modAudioLG2)
-		delete modAudioLG2;
-
-	if (modVideoMobis2)
-		delete modVideoMobis2;
-	if (modVideoLG2)
-		delete modVideoLG2;
+	//if (modVideoMobis2)
+	//	delete modVideoMobis2;
+	//if (modVideoLG2)
+	//	delete modVideoLG2;
 
 
 
