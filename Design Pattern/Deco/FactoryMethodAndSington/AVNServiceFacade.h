@@ -23,6 +23,9 @@ public:
 	void PlayNaviMobis();
 	void PlayNaviLG();
 
+	void DrawNaviMobis(int _iSession);
+	void DrawNaviLG(int _iSession);
+
 private:
 	CVideoModuleMobis*	m_pVideoModuleM;
 	CVideoModuleLG*		m_pVideoModuleL;

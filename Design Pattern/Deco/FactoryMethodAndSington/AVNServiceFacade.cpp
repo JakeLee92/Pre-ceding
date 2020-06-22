@@ -83,3 +83,27 @@ void CAVNServiceFacade::PlayNaviLG()
 	}
 }
 
+void CAVNServiceFacade::DrawNaviMobis(int _iSession)
+{
+	if (m_pNaviModuleM)
+	{
+		m_pNaviModuleM->DrawBuilding(_iSession);
+	}
+	else
+	{
+		std::cout << "Do not Exist Navi Mobis" << std::endl;
+	}
+}
+
+void CAVNServiceFacade::DrawNaviLG(int _iSession)
+{
+	if (m_pNaviModuleL)
+	{
+		m_pNaviModuleL->DrawBuilding(_iSession);
+	}
+	else
+	{
+		std::cout << "Do not Exist Navi LG" << std::endl;
+	}
+}
+

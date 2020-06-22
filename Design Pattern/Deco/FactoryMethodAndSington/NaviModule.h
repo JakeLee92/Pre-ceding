@@ -4,6 +4,7 @@
 #include "Module.h"
 #include "MemoryMonitor/NaviMemory.h"
 #include "CpuMonitor/NaviCpu.h"
+#include "CDrawCache.h"
 
 
 
@@ -14,6 +15,8 @@ public:
 
 	// Inherited via CModule
 	virtual void Play() override;
+	virtual void DrawBuilding(int _iSession);
+
 
 	void AddModuleMemory(CModuleMemory* _pModule);
 	void AddModuleCpu(CNaviCpu* _pModule);
@@ -22,6 +25,9 @@ public:
 	int CheckMaxCpu();
 
 private:
+	
+	CDrawCache m_BuildingChache;
+
 	CNaviMemory m_NaviMem;
 	CNaviCpu m_NaviCpu;
 };

@@ -55,6 +55,9 @@
     <Filter Include="Source Files\Module\Navi\CpuMonitor">
       <UniqueIdentifier>{bf79fff7-b036-40e2-86a5-0b4a311965ab}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\Module\Navi\DrawCache">
+      <UniqueIdentifier>{2bc5eb8f-ac11-4333-b17f-37d8c14943a4}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Client.cpp">
@@ -121,6 +124,9 @@
       <Filter>Source Files\Module\Navi\CpuMonitor</Filter>
     </ClCompile>
     <ClCompile Include="AVNServiceFacade.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CDrawCache.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -196,6 +202,9 @@
     </ClInclude>
     <ClInclude Include="AVNServiceFacade.h">
       <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CDrawCache.h">
+      <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
