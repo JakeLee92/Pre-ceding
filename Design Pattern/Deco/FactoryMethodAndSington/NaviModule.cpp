@@ -16,6 +16,9 @@ void CNaviModule::DrawBuilding(int _iSession)
 
 	if (builing.m_iSessionNum == 0)
 	{
+
+		m_BuildingChache.DoDraw();
+
 		// 구현하기 나름
 		stBuilding insertBuiling;
 
@@ -25,7 +28,6 @@ void CNaviModule::DrawBuilding(int _iSession)
 
 		m_BuildingChache.InsertToCache(insertBuiling);
 
-		std::cout << "DRAW BUILDING "<< _iSession << std::endl;
 	}
 	else
 	{

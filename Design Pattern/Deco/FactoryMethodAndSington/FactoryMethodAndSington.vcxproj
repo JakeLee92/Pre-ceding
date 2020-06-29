@@ -121,6 +121,7 @@
     <ClCompile Include="AVNServiceFacade.cpp" />
     <ClCompile Include="BuyExpression.cpp" />
     <ClCompile Include="CDrawCache.cpp" />
+    <ClCompile Include="CDrawer.cpp" />
     <ClCompile Include="Client.cpp" />
     <ClCompile Include="CpuMonitor\MapDisplayCpu.cpp" />
     <ClCompile Include="CpuMonitor\NaviCpu.cpp" />
@@ -151,11 +152,13 @@
     <ClInclude Include="AVNServiceFacade.h" />
     <ClInclude Include="BuyExpression.h" />
     <ClInclude Include="CDrawCache.h" />
+    <ClInclude Include="CDrawer.h" />
     <ClInclude Include="CpuMonitor\MapDisplayCpu.h" />
     <ClInclude Include="CpuMonitor\ModuleCpu.h" />
     <ClInclude Include="CpuMonitor\NaviCpu.h" />
     <ClInclude Include="CpuMonitor\RoutePlanningCpu.h" />
     <ClInclude Include="CpuMonitor\SearchCpu.h" />
+    <ClInclude Include="DrawerMD.h" />
     <ClInclude Include="Expression.h" />
     <ClInclude Include="HowMuchExpression.h" />
     <ClInclude Include="Kiosk.h" />

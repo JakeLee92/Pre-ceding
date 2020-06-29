@@ -18,6 +18,12 @@ void CDrawCache::CacheLimitSize(int _size)
 	m_ilimitSize = _size;
 }
 
+
+void CDrawCache::DoDraw()
+{
+	m_DrawMD.DoDraw();
+}
+
 stBuilding CDrawCache::FindInCahce(int _iSesseion)
 {
 	std::vector<stBuilding>::iterator vtIter;
