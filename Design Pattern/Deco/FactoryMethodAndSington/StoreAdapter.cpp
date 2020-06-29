@@ -69,3 +69,8 @@ CModule * StoreAdapter::BuyVideo(Vendor _vendor, eCurrency _eCurrency)
 
 	return pModule;
 }
+
+void StoreAdapter::UseKiosk(std::string context)
+{
+	m_pStore->UseKiosk(context);
+}

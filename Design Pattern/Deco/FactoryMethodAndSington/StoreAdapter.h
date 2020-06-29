@@ -22,6 +22,8 @@ public:
 	CModule* BuyVideo(Vendor _vendor, eCurrency _eCurrency);
 	CModule* BuyNavi(Vendor _vendor, eCurrency _eCurrency);
 
+	void UseKiosk(std::string context);
+
 
 private:
 	CStore* m_pStore;

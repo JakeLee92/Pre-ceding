@@ -58,6 +58,9 @@
     <Filter Include="Source Files\Module\Navi\DrawCache">
       <UniqueIdentifier>{2bc5eb8f-ac11-4333-b17f-37d8c14943a4}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\Interpreter">
+      <UniqueIdentifier>{01759b34-b972-4277-a116-ab10c8333d66}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Client.cpp">
@@ -128,6 +131,21 @@
     </ClCompile>
     <ClCompile Include="CDrawCache.cpp">
       <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Expression.cpp">
+      <Filter>Source Files\Interpreter</Filter>
+    </ClCompile>
+    <ClCompile Include="BuyExpression.cpp">
+      <Filter>Source Files\Interpreter</Filter>
+    </ClCompile>
+    <ClCompile Include="HowMuchExpression.cpp">
+      <Filter>Source Files\Interpreter</Filter>
+    </ClCompile>
+    <ClCompile Include="VendorExpression.cpp">
+      <Filter>Source Files\Interpreter</Filter>
+    </ClCompile>
+    <ClCompile Include="Kiosk.cpp">
+      <Filter>Source Files\Interpreter</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -205,6 +223,21 @@
     </ClInclude>
     <ClInclude Include="CDrawCache.h">
       <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Expression.h">
+      <Filter>Source Files\Interpreter</Filter>
+    </ClInclude>
+    <ClInclude Include="BuyExpression.h">
+      <Filter>Source Files\Interpreter</Filter>
+    </ClInclude>
+    <ClInclude Include="HowMuchExpression.h">
+      <Filter>Source Files\Interpreter</Filter>
+    </ClInclude>
+    <ClInclude Include="VendorExpression.h">
+      <Filter>Source Files\Interpreter</Filter>
+    </ClInclude>
+    <ClInclude Include="Kiosk.h">
+      <Filter>Source Files\Interpreter</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

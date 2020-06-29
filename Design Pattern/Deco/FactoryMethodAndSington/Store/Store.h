@@ -4,6 +4,7 @@
 #include "../AudioFactory.h"
 #include "../VideoFactory.h"
 #include "../NaviFactory.h"
+#include "../Kiosk.h"
 
 class CStore
 {
@@ -15,10 +16,12 @@ public :
 	CModule* BuyVideo(Vendor _vendor);
 	CModule* BuyNavi(Vendor _vendor);
 
+	void UseKiosk(std::string context);
+
 private:
 	CStore();
 	
-	
+	CKiosk			m_kiosk;
 	CAudioFactory m_audioFactory;
 	CVideoFactory m_videoFactory;
 	CNaviFactory m_NaviFactory;
