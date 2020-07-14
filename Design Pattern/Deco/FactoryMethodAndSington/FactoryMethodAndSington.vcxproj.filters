@@ -22,15 +22,6 @@
     <Filter Include="Source Files\Module\Video">
       <UniqueIdentifier>{272da8c7-8b68-4a20-95c9-2c55529fc891}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Source Files\Module\Audio">
-      <UniqueIdentifier>{67f012e9-788e-40e3-84d5-e04cdb37cc7d}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source Files\Module\Audio\LG">
-      <UniqueIdentifier>{e453b4b5-4c90-4ec0-ad62-9899bde75398}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source Files\Module\Audio\Mobis">
-      <UniqueIdentifier>{ececd23e-9c54-4d57-96d7-bd7324becfe1}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Source Files\Module\Video\LG">
       <UniqueIdentifier>{e1c714f9-d340-4c9c-89a0-751db2ec9cbc}</UniqueIdentifier>
     </Filter>
@@ -61,6 +52,24 @@
     <Filter Include="Source Files\Interpreter">
       <UniqueIdentifier>{01759b34-b972-4277-a116-ab10c8333d66}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\Module\Navi\NaviInitMediator">
+      <UniqueIdentifier>{dc5e719b-19aa-455a-b534-3e99d96590f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Module\Navi\Audio">
+      <UniqueIdentifier>{67f012e9-788e-40e3-84d5-e04cdb37cc7d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Module\Navi\Audio\LG">
+      <UniqueIdentifier>{e453b4b5-4c90-4ec0-ad62-9899bde75398}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Module\Navi\Audio\Mobis">
+      <UniqueIdentifier>{ececd23e-9c54-4d57-96d7-bd7324becfe1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Module\Navi\NaviInitMediator\Mediator">
+      <UniqueIdentifier>{3268013f-5079-4a99-a435-b0eabe813901}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Module\Navi\NaviInitMediator\Colleague">
+      <UniqueIdentifier>{aec8152f-133a-42a2-96ae-9bb1461c7523}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Client.cpp">
@@ -70,13 +79,13 @@
       <Filter>Source Files\Store</Filter>
     </ClCompile>
     <ClCompile Include="AudioFactory.cpp">
-      <Filter>Source Files\Module\Audio</Filter>
+      <Filter>Source Files\Module\Navi\Audio</Filter>
     </ClCompile>
     <ClCompile Include="AudioModuleLG.cpp">
-      <Filter>Source Files\Module\Audio\LG</Filter>
+      <Filter>Source Files\Module\Navi\Audio\LG</Filter>
     </ClCompile>
     <ClCompile Include="AudioModeMobis.cpp">
-      <Filter>Source Files\Module\Audio\Mobis</Filter>
+      <Filter>Source Files\Module\Navi\Audio\Mobis</Filter>
     </ClCompile>
     <ClCompile Include="VideoModuleLG.cpp">
       <Filter>Source Files\Module\Video\LG</Filter>
@@ -150,22 +159,31 @@
     <ClCompile Include="CDrawer.cpp">
       <Filter>Source Files\Module\Navi\DrawCache</Filter>
     </ClCompile>
+    <ClCompile Include="InitMediator.cpp">
+      <Filter>Source Files\Module\Navi\NaviInitMediator</Filter>
+    </ClCompile>
+    <ClCompile Include="NaviInitMediator.cpp">
+      <Filter>Source Files\Module\Navi\NaviInitMediator\Mediator</Filter>
+    </ClCompile>
+    <ClCompile Include="ModuleItem.cpp">
+      <Filter>Source Files\Module\Navi\NaviInitMediator\Colleague</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Store\Store.h">
       <Filter>Source Files\Store</Filter>
     </ClInclude>
     <ClInclude Include="AudioFactory.h">
-      <Filter>Source Files\Module\Audio</Filter>
+      <Filter>Source Files\Module\Navi\Audio</Filter>
     </ClInclude>
     <ClInclude Include="Module.h">
       <Filter>Source Files\Module</Filter>
     </ClInclude>
     <ClInclude Include="AudioModuleLG.h">
-      <Filter>Source Files\Module\Audio\LG</Filter>
+      <Filter>Source Files\Module\Navi\Audio\LG</Filter>
     </ClInclude>
     <ClInclude Include="AudioModeMobis.h">
-      <Filter>Source Files\Module\Audio\Mobis</Filter>
+      <Filter>Source Files\Module\Navi\Audio\Mobis</Filter>
     </ClInclude>
     <ClInclude Include="VideoFactory.h">
       <Filter>Source Files\Module\Video</Filter>
@@ -247,6 +265,21 @@
     </ClInclude>
     <ClInclude Include="DrawerMD.h">
       <Filter>Source Files\Module\Navi\DrawCache</Filter>
+    </ClInclude>
+    <ClInclude Include="InitMediator.h">
+      <Filter>Source Files\Module\Navi\NaviInitMediator</Filter>
+    </ClInclude>
+    <ClInclude Include="ISModule.h">
+      <Filter>Source Files\Module\Navi\NaviInitMediator\Colleague</Filter>
+    </ClInclude>
+    <ClInclude Include="ModuleItem.h">
+      <Filter>Source Files\Module\Navi\NaviInitMediator\Colleague</Filter>
+    </ClInclude>
+    <ClInclude Include="RPModule.h">
+      <Filter>Source Files\Module\Navi\NaviInitMediator\Colleague</Filter>
+    </ClInclude>
+    <ClInclude Include="NaviInitMediator.h">
+      <Filter>Source Files\Module\Navi\NaviInitMediator\Mediator</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

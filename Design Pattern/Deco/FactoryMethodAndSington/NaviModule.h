@@ -26,6 +26,7 @@ public:
 
 private:
 	
+
 	CDrawCache m_BuildingChache;
 
 	CNaviMemory m_NaviMem;
