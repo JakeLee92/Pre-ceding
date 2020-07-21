@@ -9,7 +9,8 @@
 #ifndef RPSubject_hpp
 #define RPSubject_hpp
 
-#include "Subject.hpp"
+
+#include "../../../../Deco/FactoryMethodAndSington/Observer/Subject/Subject.hpp"
 
 class CRPSubject : public CSubject
 {

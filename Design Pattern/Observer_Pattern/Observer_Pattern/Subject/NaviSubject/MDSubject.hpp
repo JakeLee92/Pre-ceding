@@ -1,3 +1,4 @@
+#include "../../../../Deco/FactoryMethodAndSington/Observer/Subject/Subject.hpp"
 //
 //  MDSubject.hpp
 //  Observer_Pattern
@@ -9,7 +10,7 @@
 #ifndef MDSubject_hpp
 #define MDSubject_hpp
 
-#include "Subject.hpp"
+
 
 class CMDSubject : public CSubject
 {

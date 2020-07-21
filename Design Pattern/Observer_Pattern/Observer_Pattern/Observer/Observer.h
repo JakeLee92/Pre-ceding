@@ -10,8 +10,9 @@
 #define Observer_h
 
 #include <vector>
-#include "Subject.hpp"
-class CSubject;
+#include "../../../Deco/FactoryMethodAndSington/Observer/Subject/Subject.hpp"
+
+
 class CObserver
 {
 public :

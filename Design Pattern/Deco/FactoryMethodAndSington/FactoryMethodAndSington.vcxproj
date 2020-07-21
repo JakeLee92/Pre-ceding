@@ -141,6 +141,12 @@
     <ClCompile Include="NaviModuleLG.cpp" />
     <ClCompile Include="NaviModuleMobis.cpp" />
     <ClCompile Include="InitMediator.cpp" />
+    <ClCompile Include="Observer\Observer\NaviObserver\RPRunningObserver.cpp" />
+    <ClCompile Include="Observer\Observer\Observer.cpp" />
+    <ClCompile Include="Observer\Subject\NaviSubject\ISSubject.cpp" />
+    <ClCompile Include="Observer\Subject\NaviSubject\MDSubject.cpp" />
+    <ClCompile Include="Observer\Subject\NaviSubject\RPSubject.cpp" />
+    <ClCompile Include="Observer\Subject\Subject.cpp" />
     <ClCompile Include="StoreAdapter.cpp" />
     <ClCompile Include="Store\Store.cpp" />
     <ClCompile Include="VendorExpression.cpp" />
@@ -179,6 +185,12 @@
     <ClInclude Include="NaviFactory.h" />
     <ClInclude Include="NaviModuleLG.h" />
     <ClInclude Include="NaviModuleMobis.h" />
+    <ClInclude Include="Observer\Observer\NaviObserver\RPRunningObserver.h" />
+    <ClInclude Include="Observer\Observer\Observer.h" />
+    <ClInclude Include="Observer\Subject\NaviSubject\ISSubject.hpp" />
+    <ClInclude Include="Observer\Subject\NaviSubject\MDSubject.hpp" />
+    <ClInclude Include="Observer\Subject\NaviSubject\RPSubject.hpp" />
+    <ClInclude Include="Observer\Subject\Subject.hpp" />
     <ClInclude Include="RPModule.h" />
     <ClInclude Include="StoreAdapter.h" />
     <ClInclude Include="Store\Store.h" />
