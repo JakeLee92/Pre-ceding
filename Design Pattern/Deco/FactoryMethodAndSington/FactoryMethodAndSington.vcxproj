@@ -141,6 +141,11 @@
     <ClCompile Include="NaviModuleLG.cpp" />
     <ClCompile Include="NaviModuleMobis.cpp" />
     <ClCompile Include="InitMediator.cpp" />
+    <ClCompile Include="NaviStateManager\NaviStateManager.cpp" />
+    <ClCompile Include="NaviStateManager\State\NaviState.cpp" />
+    <ClCompile Include="NaviStateManager\State\RpRunningNaviState.cpp" />
+    <ClCompile Include="NaviStateManager\State\TurnOffNaviState.cpp" />
+    <ClCompile Include="NaviStateManager\State\TurnOnNaviState.cpp" />
     <ClCompile Include="Observer\Observer\NaviObserver\RPRunningObserver.cpp" />
     <ClCompile Include="Observer\Observer\Observer.cpp" />
     <ClCompile Include="Observer\Subject\NaviSubject\ISSubject.cpp" />
@@ -185,6 +190,11 @@
     <ClInclude Include="NaviFactory.h" />
     <ClInclude Include="NaviModuleLG.h" />
     <ClInclude Include="NaviModuleMobis.h" />
+    <ClInclude Include="NaviStateManager\NaviStateManager.h" />
+    <ClInclude Include="NaviStateManager\State\NaviState.h" />
+    <ClInclude Include="NaviStateManager\State\RpRunningNaviState.h" />
+    <ClInclude Include="NaviStateManager\State\TurnOffNaviState.h" />
+    <ClInclude Include="NaviStateManager\State\TurnOnNaviState.h" />
     <ClInclude Include="Observer\Observer\NaviObserver\RPRunningObserver.h" />
     <ClInclude Include="Observer\Observer\Observer.h" />
     <ClInclude Include="Observer\Subject\NaviSubject\ISSubject.hpp" />

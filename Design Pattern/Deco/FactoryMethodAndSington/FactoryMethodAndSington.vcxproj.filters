@@ -73,6 +73,12 @@
     <Filter Include="Source Files\Module\Audio\Mobis">
       <UniqueIdentifier>{ececd23e-9c54-4d57-96d7-bd7324becfe1}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\Module\Navi\NaviStateManager">
+      <UniqueIdentifier>{94b16e75-3f23-4503-8ee6-1e3b6ecc6bb3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Module\Navi\NaviStateManager\State">
+      <UniqueIdentifier>{5bd30410-3155-465d-ae3d-822dd2153232}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Client.cpp">
@@ -188,6 +194,21 @@
     </ClCompile>
     <ClCompile Include="Observer\Subject\Subject.cpp">
       <Filter>Source Files\Module\Navi\NaviObserver</Filter>
+    </ClCompile>
+    <ClCompile Include="NaviStateManager\NaviStateManager.cpp">
+      <Filter>Source Files\Module\Navi\NaviStateManager</Filter>
+    </ClCompile>
+    <ClCompile Include="NaviStateManager\State\TurnOffNaviState.cpp">
+      <Filter>Source Files\Module\Navi\NaviStateManager\State</Filter>
+    </ClCompile>
+    <ClCompile Include="NaviStateManager\State\TurnOnNaviState.cpp">
+      <Filter>Source Files\Module\Navi\NaviStateManager\State</Filter>
+    </ClCompile>
+    <ClCompile Include="NaviStateManager\State\NaviState.cpp">
+      <Filter>Source Files\Module\Navi\NaviStateManager\State</Filter>
+    </ClCompile>
+    <ClCompile Include="NaviStateManager\State\RpRunningNaviState.cpp">
+      <Filter>Source Files\Module\Navi\NaviStateManager\State</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -319,6 +340,21 @@
     </ClInclude>
     <ClInclude Include="Observer\Subject\Subject.hpp">
       <Filter>Source Files\Module\Navi\NaviObserver</Filter>
+    </ClInclude>
+    <ClInclude Include="NaviStateManager\NaviStateManager.h">
+      <Filter>Source Files\Module\Navi\NaviStateManager</Filter>
+    </ClInclude>
+    <ClInclude Include="NaviStateManager\State\RpRunningNaviState.h">
+      <Filter>Source Files\Module\Navi\NaviStateManager\State</Filter>
+    </ClInclude>
+    <ClInclude Include="NaviStateManager\State\TurnOffNaviState.h">
+      <Filter>Source Files\Module\Navi\NaviStateManager\State</Filter>
+    </ClInclude>
+    <ClInclude Include="NaviStateManager\State\TurnOnNaviState.h">
+      <Filter>Source Files\Module\Navi\NaviStateManager\State</Filter>
+    </ClInclude>
+    <ClInclude Include="NaviStateManager\State\NaviState.h">
+      <Filter>Source Files\Module\Navi\NaviStateManager\State</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
